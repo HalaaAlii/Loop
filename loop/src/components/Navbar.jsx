@@ -121,49 +121,49 @@ function Navbar() {
           padding: 0,
         }}>
           <div style={{ display: 'flex', alignItems: 'center', flex: 1 }}>
-            <input
-              type="text"
-              placeholder="Search items..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              onKeyPress={handleSearchKeyPress}
-              style={{
+          <input
+            type="text"
+            placeholder="Search items..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            onKeyPress={handleSearchKeyPress}
+            style={{
                 border: 'none',
                 outline: 'none',
                 padding: '0.9rem 1.2rem',
-                fontSize: '1rem',
+              fontSize: '1rem',
                 background: 'transparent',
-                minWidth: '120px',
-                maxWidth: '180px',
+              minWidth: '120px',
+              maxWidth: '180px',
                 flex: 1,
                 color: '#1A1B41',
                 fontWeight: 500,
-              }}
-            />
+            }}
+          />
             <div style={{ width: 1, height: 32, background: '#eee', margin: '0 0.5rem' }} />
-            <select
-              value={maxDistance}
-              onChange={(e) => setMaxDistance(e.target.value)}
-              style={{
+          <select
+            value={maxDistance}
+            onChange={(e) => setMaxDistance(e.target.value)}
+            style={{
                 border: 'none',
                 outline: 'none',
                 padding: '0.9rem 1.2rem',
-                fontSize: '1rem',
+              fontSize: '1rem',
                 background: 'transparent',
                 minWidth: '80px',
-                color: '#1A1B41',
-                cursor: 'pointer',
+              color: '#1A1B41',
+              cursor: 'pointer',
                 fontWeight: 500,
                 appearance: 'none',
                 boxShadow: 'none',
-              }}
+            }}
               onFocus={e => { e.target.style.outline = 'none'; e.target.style.boxShadow = 'none'; }}
-            >
-              <option value="5">5 km</option>
-              <option value="10">10 km</option>
-              <option value="25">25 km</option>
-              <option value="50">50 km</option>
-            </select>
+          >
+            <option value="5">5 km</option>
+            <option value="10">10 km</option>
+            <option value="25">25 km</option>
+            <option value="50">50 km</option>
+          </select>
           </div>
           <button
             type="submit"

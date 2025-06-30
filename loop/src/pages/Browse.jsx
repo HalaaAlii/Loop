@@ -44,7 +44,7 @@ function Browse() {
 
   return (
     <div style={{ padding: "2rem" }}>
-      <h1 style={{ fontSize: "2rem", marginBottom: "1.5rem" }}>
+      <h1 style={{ fontSize: "2rem", marginBottom: "1.5rem", color: "#001f3f" }}>
         Browse Listings
         {filters.search && (
           <span style={{ fontSize: "1.2rem", color: "#666", fontWeight: "normal" }}>

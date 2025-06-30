@@ -439,48 +439,48 @@ function PostListing() {
           </div>
           <div style={{ marginBottom: '1.5rem' }}>
             <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 600, color: '#333' }}>Condition *</label>
-            <select
-              value={condition}
+          <select
+            value={condition}
               onChange={e => setCondition(e.target.value)}
-              style={{
-                width: '100%',
+            style={{
+              width: '100%',
                 padding: '0.9rem 1.2rem',
-                borderRadius: '8px',
+              borderRadius: '8px',
                 border: errors.condition ? '1.5px solid #e74c3c' : '1.5px solid #ddd',
-                fontSize: '1rem',
-                outline: 'none',
+              fontSize: '1rem',
+              outline: 'none',
                 background: '#fff',
                 color: '#222',
                 boxSizing: 'border-box',
-              }}
-            >
-              <option value="">Select condition</option>
-              <option value="New">New</option>
-              <option value="Like New">Like New</option>
-              <option value="Used">Used - Good</option>
-              <option value="Fair">Used - Fair</option>
-            </select>
-          </div>
+            }}
+          >
+            <option value="">Select condition</option>
+            <option value="New">New</option>
+            <option value="Like New">Like New</option>
+            <option value="Used">Used - Good</option>
+            <option value="Fair">Used - Fair</option>
+          </select>
+        </div>
           <div style={{ marginBottom: '1.5rem' }}>
             <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 600, color: '#333' }}>Description *</label>
-            <textarea
-              value={description}
+          <textarea
+            value={description}
               onChange={e => setDescription(e.target.value)}
-              placeholder="Describe your item in detail. What makes it special? Any specific features or instructions?"
-              style={{
-                width: '100%',
+            placeholder="Describe your item in detail. What makes it special? Any specific features or instructions?"
+            style={{
+              width: '100%',
                 padding: '0.9rem 1.2rem',
-                borderRadius: '8px',
+              borderRadius: '8px',
                 border: errors.description ? '1.5px solid #e74c3c' : '1.5px solid #ddd',
-                fontSize: '1rem',
-                outline: 'none',
+              fontSize: '1rem',
+              outline: 'none',
                 background: '#fff',
                 color: '#222',
                 minHeight: '90px',
                 boxSizing: 'border-box',
-                resize: 'vertical',
-              }}
-            />
+              resize: 'vertical',
+            }}
+          />
           </div>
         </div>
 

@@ -84,20 +84,20 @@ function Items({ filters = {}, onTagClick }) {
             className={`item-card-animate${visibleCards[idx] ? ' visible' : ''}`}
           >
             <ItemCard
-              id={item.id}
-              image={item.imageUrl || ""}
-              title={item.name || "Untitled"}
-              price={`$${item.price || 0}/${item.per || "day"}`}
-              availability={"Available now"}
-              location={item.location || "Unknown location"}
-              rating={getRandomRating()}
-              reviews={getRandomReviews()}
-              tags={item.tags || []}
-              user={{ name: item.userName || getRandomName(), avatar: "" }}
-              badge={null}
-              distance={`${getRandomDistance()} km`}
-              onTagClick={onTagClick}
-            />
+            id={item.id}
+            image={item.imageUrl || ""}
+            title={item.name || "Untitled"}
+            price={`$${item.price || 0}/${item.per || "day"}`}
+            availability={"Available now"}
+            location={item.location || "Unknown location"}
+            rating={getRandomRating()}
+            reviews={getRandomReviews()}
+            tags={item.tags || []}
+            user={{ name: item.userName || getRandomName(), avatar: "" }}
+            badge={null}
+            distance={`${getRandomDistance()} km`}
+            onTagClick={onTagClick}
+          />
           </div>
         ))
       )}

@@ -244,13 +244,13 @@ function ItemDetail() {
             onClick={() => setShowBookingCalendar(true)}
             style={{
               background: '#001f3f',
-              color: '#fff',
-              border: 'none',
-              borderRadius: 12,
-              padding: '1rem 2rem',
-              fontWeight: 700,
-              fontSize: '1.1rem',
-              cursor: 'pointer',
+            color: '#fff',
+            border: 'none',
+            borderRadius: 12,
+            padding: '1rem 2rem',
+            fontWeight: 700,
+            fontSize: '1.1rem',
+            cursor: 'pointer',
               width: '100%'
             }}
           >
