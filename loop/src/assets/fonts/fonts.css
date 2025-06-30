@@ -1,0 +1,23 @@
+/* Import Satoshi font definitions */
+@import url('./Satoshi_Complete/Fonts/WEB/css/satoshi.css');
+
+/* Define the main Satoshi font family for easy use */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Variable.woff2') format('woff2'),
+       url('./Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Variable.woff') format('woff'),
+       url('./Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Variable.ttf') format('truetype');
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./Satoshi_Complete/Fonts/WEB/fonts/Satoshi-VariableItalic.woff2') format('woff2'),
+       url('./Satoshi_Complete/Fonts/WEB/fonts/Satoshi-VariableItalic.woff') format('woff'),
+       url('./Satoshi_Complete/Fonts/WEB/fonts/Satoshi-VariableItalic.ttf') format('truetype');
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: italic;
+} 
