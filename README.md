@@ -70,13 +70,6 @@ Visit [http://localhost:5173](http://localhost:5173) in your browser.
 - Implement ratings & reviews
 - Add geolocation features
 - Expand to **services marketplace** like TaskRabbit, allowing people to hire local help for tasks like furniture assembly, lawn care, or event setups.
-
----
-
-## 🤝 Contributing
-
-Contributions welcome! Feel free to open issues or submit pull requests.
-
 ---
 
 ## 📄 License
